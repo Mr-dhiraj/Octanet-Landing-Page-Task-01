@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+    color: #555;
+  }
+  .container{
+    width: 100%;
+     background-color: #fff;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #5ea15e;
+  }
+  .navbar ul{
+    display: flex;
+    list-style: none;
+  }
+  .nav{
+    display: flex;
+    width: 100%;
+  }
+  .nav input{
+    margin-left: 350px;
+    padding: 15px 90px;
+    border-radius: 30px;
+    border: none;
+  }
+  #ser-btn{
+    margin-left: 5px;
+    border-radius: 10px;
+    padding: 10px 10px 26px 12px;
+    border: none;
+    background-color: #52aae0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    height: 5px;
+    margin-top: 10px
+    }
+  #ser-btn:hover{
+    background-color: #fff;
+    color: #1dc2d7;
+  }
+  
+  .nav li{
+    margin-left: 29px;
+    font-size: 26px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+  } 
+  .nav li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .nav1{
+    display: flex;
+    margin-left:200px;
+  }
+  .nav1 li{
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+ 
+  .nav1 li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .nav1 li a:hover{
+    color: black;
+  }
+  .learning-hub{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 80px;
+     /* margin-left: 80px; */
+  }
+  .text{
+    margin:80px 0 0 60px;
+  }
+  .learning-hub h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: green;
+  }
+  #explore-more{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius:15px;
+    background-color: #ebefeb;
+    padding: 10px 30px;
+    border: none;
+    margin-top:10px;
+  }
+  #explore-more:hover{
+    background-color: #5ea15e;
+    color: white;
+  }
+  .courses{
+    background-color: #d9d7d3;
+  }
+  .html-img{
+   margin-right: 50px;
+  }
+  .courses h1{
+    text-align:center;
+    margin-top:50px;
+    color: green;
+    font-size: 50px;
+  }
+  .course-container{
+    display:flex;
+    width:100%;
+  }
+  .course1{
+    display:flex;
+    flex-direction:column;
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 80px;
+    border-radius: 15px;
+    background-color: #edf0ed;
+    padding: 20px;
+    box-shadow: 0px 0px 5px #555;
+    cursor: pointer;
+    text-align:center;
+  }
+  .course1 h3{
+    font-size: 40px;
+    font-weight: 600;
+    color: #8e6101;
+    text-align:center;
+    border-bottom: 1px solid #555;
+    padding-bottom: 10px;
+  }
+  .course1 p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0a0a0a;
+    text-align:center;
+    margin-top: 10px;
+  }
+  .course1 img{
+   margin:20px 0px 20px 80px;
+  }
+  
+  #add-courese{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius:15px;
+    background-color: #7c837c;
+    padding: 10px 20px;
+    border: none;
+    margin-top:10px;
+    color: #fff;
+  }
+  #add-courese:hover{
+    background-color: #5ea15e;
+  }
+  .sign-up{
+    background-color: #fff;
+    margin-top: 60px;
+    padding: 80px;
+    box-shadow: 0px 0px 5px #ecdfdf;
+    display: flex;
+  }
+  .sign-up h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: green;
+    margin-bottom: 20px;
+    margin-left: 34%;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;  
+   }
+  input{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #555;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+    outline: none;
+    text-align: center;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 5px #555;
+    cursor: pointer;
+  }
+  #input-button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #555;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+    outline: none;
+    text-align: center;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 5px #58a75d;
+    cursor: pointer;
+    margin-left: 25%;
+  }
+  #input-button:hover{
+    background-color: #58a75d;
+    color: #fff;
+  }
+  .about-us{
+    background-color: #f5f5f5;
+    padding: 40px;
+    margin-top: 35px;
+    box-shadow: 0px 0px 5px #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+  }
+  .about-us h3{
+    font-size: 40px;
+    font-weight: 600;
+    color: green;
+    margin-bottom: 20px;
+  }
+  .about-us p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;  
+  }
+  .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      /* position: fixed; */
+      bottom: 10px;
+      width: 100%;
+      
+  }
+  
+  /* Style for the icons */
+  .footer i {
+     margin: 0px 5px;
+     font-size: 20px;
+    cursor: pointer;
+    padding:10px 10px;
+    
+  }
+  .footer-follow{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .footer-p{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  
+  .icon i{
+    font-size: 20px;
+    cursor: pointer;
+    padding:20px 20px;
+  }
